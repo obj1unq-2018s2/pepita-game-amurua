@@ -23,5 +23,11 @@ object pepita {
 	method move(nuevaPosicion) {
 		energia -= self.energiaParaVolar(posicion.distance(nuevaPosicion))
 		self.posicion(nuevaPosicion)
-	}	
+	}
+	
+	method teEncontro(alguien){
+		
+	}
+	
+	
 }
